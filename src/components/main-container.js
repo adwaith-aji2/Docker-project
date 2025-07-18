@@ -11,7 +11,7 @@ export default class MainContainer extends Component {
     this.state = {
       coins:[],
     }
-    this.url = 'https://thingproxy.freeboard.io/fetch/https://api.coinone.co.kr/ticker?currency=all'
+    this.url = this.url = 'https://api.coinone.co.kr/ticker?currency=all'
     this.headers = {
       'content-type': 'application/json',
       'accept': 'application/json',
